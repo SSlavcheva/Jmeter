@@ -1,5 +1,12 @@
 
-& "C:\Users\Sylvia\Documents\jmeter2\jmeterproject\apache-jmeter-5.5\bin\jmeter.bat" -n -t "C:\Users\Sylvia\Documents\jmeter2\jmeterproject\apache-jmeter-5.5\bin\test1.jmx"
+& "C:\Users\Sylvia\Documents\jmeter2\jmeterproject\apache-jmeter-5.5\bin\jmeter.bat" -n -t "C:\Users\Sylvia\Documents\jmeter2\jmeterproject\apache-jmeter-5.5\bin\test1.jmx" -l "C:\Users\Sylvia\Documents\jmeter2\jmeterproject\Results\Logs.jtl"
+
+
+
+
+
+
+
 Write-Output "##teamcity[blockOpened name='script is run']"
 
 

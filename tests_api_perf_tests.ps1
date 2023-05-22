@@ -15,7 +15,7 @@ param(
 )
 
 $source='C:\Users\Sylvia\Downloads\buildAgentFull\work\b74038a8e1f1354f\Results\Logs.jtl'
-$destination=''C:\Users\Sylvia\Downloads\buildAgentFull\work\b74038a8e1f1354f\Results\Logs2.jtl''
+$destination='C:\Users\Sylvia\Downloads\buildAgentFull\work\b74038a8e1f1354f\Results\Logs2.jtl'
 
 $reader = [System.IO.File]::OpenText($source)
 $writer = New-Object System.IO.StreamWriter $destination

@@ -3,11 +3,12 @@
 
 
 
-
-
-
-
 Write-Output "##teamcity[blockOpened name='script is run']"
+
+
+
+
+
 
 
 
